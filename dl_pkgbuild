@@ -13,7 +13,15 @@ MAGENTA="$(printf '\033[35m')"  CYAN="$(printf '\033[36m')"  WHITE="$(printf '\0
 DIR="$(pwd)"
 PKGDIR="$DIR/packages_aur"
 
-LIST=(clean-chroot-manager
+LIST=(mpdris2
+    nemo-ext-git-git
+    nemo-meld-compare
+    shellcheck-bin
+    xorg-font-utils
+    bashmount
+    authy
+    font-manager-git
+    lf-bin
 	  )
 
 ## Reset terminal colors
